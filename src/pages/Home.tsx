@@ -1,0 +1,42 @@
+import Button from "../components/Button"
+
+function App() {
+
+    return (
+        <div className="flex flex-col min-h-screen bg-[#6EB1FF]">
+            <div>
+                <img src="../assets/clouds_background.png" alt="Clouds" className="contrast-125"/>
+            </div>
+            <div className="lg:grid grid-cols-2 grid-rows-2">
+                <div 
+                    className="font-mc text-white 
+                    lg:text-6xl lg:text-left lg:m-10
+                    text-lg text-center m-5"
+                >
+                    Juan Alejandro Santos Martínez
+                </div>
+                <div className="row-span-2 flex flex-col justify-center items-center gap-3">
+                    <Button text="Projects" path="hola/hola"/>
+                    <Button text="Skills" path="hola/hola"/>
+                </div>
+                <div 
+                    className="font-mc text-white 
+                    lg:text-3xl lg:text-left lg:ml-10
+                    text-lg text-center flex flex-col"
+                >
+                    <span className="text-black lg:text-4xl text-xl">
+                        Sobre mí:
+                    </span>
+                    <p className="font-normal lg:text-2xl text-sm">
+                        Egresado de la carrera del área de Tecnologías de la <br />
+                        Información, con conocimientos en <br />
+                        desarrollo de software, redes de telecomunicaciones <br />
+                        e Internet de las Cosas (IoT)
+                    </p>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default App
