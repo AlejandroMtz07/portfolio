@@ -1,6 +1,6 @@
 import Button from "../components/Button"
 
-function App() {
+function Home() {
 
     return (
         <div className="flex flex-col min-h-screen bg-[#6EB1FF]">
@@ -15,9 +15,15 @@ function App() {
                 >
                     Juan Alejandro Santos Martínez
                 </div>
-                <div className="row-span-2 flex flex-col justify-center items-center gap-3">
-                    <Button text="Projects" path="hola/hola"/>
-                    <Button text="Skills" path="hola/hola"/>
+                <div className="row-span-2 flex flex-col justify-center items-center gap-5">
+                    <div>
+                        <h3 className="font-mc text-lg">Conoce mis proyectos:</h3>
+                        <Button text="Proyectos" path="/projects"/>
+                    </div>
+                    <div>
+                        <h3 className="font-mc text-lg">Conoce mis habilidades: </h3>
+                        <Button text="Habilidades" path="/skills"/>
+                    </div>
                 </div>
                 <div 
                     className="font-mc text-white 
@@ -34,7 +40,7 @@ function App() {
                     </p>
                 </div>
             </div>
-            <footer className="w-full lg:h-44 h-32 text-center mt-40 p-10 font-mc 
+            <footer className="w-full lg:h-44 h-32 text-center mt-60 p-10 font-mc 
                 text-lg bg-[url('../assets/grass-border.jpg')] text-white flex justify-center items-center"
             >
                 <div>
@@ -45,4 +51,4 @@ function App() {
     )
 }
 
-export default App
+export default Home
