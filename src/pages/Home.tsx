@@ -34,7 +34,7 @@ function App() {
                     </p>
                 </div>
             </div>
-            <footer className="w-full h-44 text-center mt-20 p-10 font-mc 
+            <footer className="w-full lg:h-44 h-32 text-center mt-40 p-10 font-mc 
                 text-lg bg-[url('../assets/grass-border.jpg')] text-white flex justify-center items-center"
             >
                 <div>
