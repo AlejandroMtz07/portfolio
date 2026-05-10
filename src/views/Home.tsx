@@ -3,10 +3,7 @@ import Button from "../components/Button"
 function Home() {
 
     return (
-        <div className="flex flex-col min-h-screen bg-[#6EB1FF]">
-            <div>
-                <img src="../assets/clouds_background.png" alt="Clouds" className="contrast-125"/>
-            </div>
+        <div >
             <div className="lg:grid grid-cols-2 grid-rows-2 flex-grow">
                 <div 
                     className="font-mc text-white 
@@ -40,13 +37,7 @@ function Home() {
                     </p>
                 </div>
             </div>
-            <footer className="w-full lg:h-44 h-32 text-center mt-60 p-10 font-mc 
-                text-lg bg-[url('../assets/grass-border.jpg')] text-white flex justify-center items-center"
-            >
-                <div>
-                    Footer content
-                </div>
-            </footer>
+            
         </div>
     )
 }
