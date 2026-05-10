@@ -5,10 +5,11 @@ type ButtonProps = {
 }
 
 export default function Button({ text, path }: ButtonProps) {
-    console.log(path);
     return (
-        <div className="bg-[#8b8b8b] w-52 h-10 text-white font-mc text-center
-        text-xl shadow-lg border-2 border-black hover:bg-[#365b71] hover:cursor-pointer"
+        <div className="font-mc text-center w-52 h-10
+            bg-[#8b8b8b] text-white border-black
+            text-xl shadow-lg border-2
+            hover:bg-[#305c76] hover:cursor-pointer rounded-md"
         >
             {text}
         </div>
