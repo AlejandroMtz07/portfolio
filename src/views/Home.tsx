@@ -3,9 +3,9 @@ import Button from "../components/Button"
 function Home() {
 
     return (
-        <div >
+        <div>
             <div className="lg:grid grid-cols-2 grid-rows-2 flex-grow">
-                <div 
+                <div
                     className="font-mc text-white 
                     lg:text-6xl lg:text-left lg:m-10
                     text-lg text-center m-5"
@@ -15,14 +15,18 @@ function Home() {
                 <div className="row-span-2 flex flex-col justify-center items-center gap-5">
                     <div>
                         <h3 className="font-mc text-lg">Conoce mis proyectos:</h3>
-                        <Button text="Proyectos" path="/projects"/>
+                        <Button text="Proyectos" path="/projects" type="button"/>
                     </div>
                     <div>
                         <h3 className="font-mc text-lg">Conoce mis habilidades: </h3>
-                        <Button text="Habilidades" path="/skills"/>
+                        <Button text="Habilidades" path="/skills" type="button"/>
+                    </div>
+                    <div>
+                        <h3 className="font-mc text-lg">Contactame</h3>
+                        <Button text="Contact me" path="/skills" type="mail"/>
                     </div>
                 </div>
-                <div 
+                <div
                     className="font-mc text-white 
                     lg:text-3xl lg:text-left lg:ml-10
                     text-lg text-center flex flex-col"
@@ -37,7 +41,7 @@ function Home() {
                     </p>
                 </div>
             </div>
-            
+
         </div>
     )
 }
