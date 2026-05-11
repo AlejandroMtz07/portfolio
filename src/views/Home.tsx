@@ -22,8 +22,8 @@ function Home() {
                         <Button text="Habilidades" path="/skills" type="button"/>
                     </div>
                     <div>
-                        <h3 className="font-mc text-lg">Contactame</h3>
-                        <Button text="Contact me" path="/skills" type="mail"/>
+                        <h3 className="font-mc text-lg">Contáctame:</h3>
+                        <Button text="Contactame" path="/skills" type="mail"/>
                     </div>
                 </div>
                 <div
