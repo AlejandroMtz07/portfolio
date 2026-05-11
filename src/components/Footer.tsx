@@ -1,11 +1,11 @@
 
 export default function Footer() {
     return (
-        <footer className="w-full h-40 text-center mt-40 p-10 font-mc 
-                text-lg bg-[url('../assets/grass-border.jpg')] text-white"
+        <footer className="w-full h-32 text-center mt-40 p-10 font-mc 
+                text-lg bg-[url('../assets/grass-border.jpg')] text-white flex items-center justify-center"
         >
-            <div className="grid grid-cols-2 justify-between">
-                <div className="flex flex-row h-10">
+            <div className="flex flex-row lg:gap-10 gap-3">
+                <div className="flex h-10">
                     <a href="https://www.facebook.com/alejandro.martinez.693463"
                         rel="noopener noreferrer" target="_blank" className="h-10"
                     >
@@ -22,8 +22,10 @@ export default function Footer() {
                         <img src="../assets/icons/github_icon.png" alt="Instagram icon" className="h-10" />
                     </a>
                 </div>
-                <div>
-                    
+                <div className="border-l-black border-l-2 flex items-center 
+                    align-middle text-black text-2xl"
+                >
+                    <p className="lg:ml-10 ml-2">Juan Alejandro Santos Martinez</p>
                 </div>
             </div>
         </footer>
