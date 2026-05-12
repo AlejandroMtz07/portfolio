@@ -17,10 +17,10 @@ export default function ProjectCard(props: ProjectCardProps) {
             <div className='flex flex-col items-center justify-center'>
                 <h3 className="text-3xl mb-7">{props.project_title}</h3>
                 <div className="grid grid-cols-2 text-lg">
-                    <p>{props.project_tools}</p>
-                    <p>Duration: {props.project_duration} months</p>
+                    <p>Herramientas: {props.project_tools}</p>
+                    <p>Duración: {props.project_duration} meses</p>
                 </div>
-                <h3 className='text-black text-xl'>Description:</h3>
+                <h3 className='text-black text-xl'>Descripción:</h3>
                 <p className="text-lg">
                     {props.project_description}
                 </p>

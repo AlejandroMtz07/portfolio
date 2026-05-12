@@ -6,31 +6,45 @@ export default function Projects() {
 		font-mc text-2xl justify-items-center">
 			<div className="col-span-2 mb-10">
 				<h2 className="text-6xl font-bold">
-					Projects
+					Projectos
 				</h2>
 				<h4>
-					Projects that i've created
+					Projectos que he creado.
 				</h4>
 			</div>
 			<ProjectCard
-				project_title="Kitchen App"
+				project_title="Kitchen App (Web)"
 				project_tools={"TypeScript, React, Formidable"}
 				project_duration={3}
-				project_description="A system designed for viewing, adding, and uploading recipes to a private or public recipe book. It allows for user profile customization and viewing of users and their public recipes."
+				project_description="Un sistema diseñado para visualización, agregación y subida de recetas a un recetario privado o público. Permitiendo una personalización del perfil de usuario y consulta a perfiles de usuarios y sus recetas dentro de su recetario público."
 				project_image="KitchenApp.mp4"
 			/>
 			<ProjectCard
 				project_title="Kitchen API (Backend)"
 				project_duration={3}
 				project_tools="TypeScript, ExpressJS, MySQL, JWT, Nodemailer, Cloudinary"
-				project_description="Backend designed for the Task Manager APP"
+				project_description="Backend desarrollado para ser consumido por la aplicación web Kitchen App, adaptado para ser capaz de recibir texto y guardarlo dentro de la base de datos enlazado al usuario que subió la receta así como imágenes y guardarlas dentro de un servicio en la nube para almacenamiento de  imágenes "
 				project_image="KitchenBackend.png"
 			/>
 			<ProjectCard
-				project_title="Sherlock Solitaire"
+				project_title="Inteligent House (Web)"
+				project_duration={3}
+				project_tools="TypeScript, React, Zod, Tailwindcss"
+				project_description="Aplicación Web desarrollada para monitoreo, registro y personalización de dispositivos IoT. Se encarga de consumir una API para la consulta y muestra de datos relacionados a los dispositivos enlazados mediante código QR único por dispositivo."
+				project_image="InteligentHouse.png"
+			/>
+			<ProjectCard
+				project_title="Inteligent House (Móvil)"
+				project_duration={4}
+				project_tools={"Flutter, Firebase, Dart, Arduino"}
+				project_description="Aplicación móvil creada para control y enlazado de dispositivos Bluetooth IoT desarrollados en la placa Arduino Uno, y un módulo Bluetooth para envío y recepción de acciones por parte del usuario."
+				project_image="InteligentHouseMobile.jpeg"
+			/>
+			<ProjectCard
+				project_title="Sherlock Solitaire (Consola)"
 				project_duration={4}
 				project_tools={"Java, POO"}
-				project_description="Game created in Java based on the game Sherlock Solitaire"
+				project_description="Proyecto escolar creado en base al juego de mesa del mismo nombre, haciendo uso de la Programación Orientada a Objetos y lógica de programación."
 				project_image="SherlockSolitaire.jpg"
 			/>
 		</div>
