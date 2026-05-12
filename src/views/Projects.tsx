@@ -13,22 +13,25 @@ export default function Projects() {
 				</h4>
 			</div>
 			<ProjectCard
-				project_title="MichiCan"
-				project_tools={"Java, JSP, SQLite"}
-				project_duration={6}
-				project_description="System designed for the vet business management and home page"
+				project_title="Kitchen App"
+				project_tools={"TypeScript, React, Formidable"}
+				project_duration={3}
+				project_description="A system designed for viewing, adding, and uploading recipes to a private or public recipe book. It allows for user profile customization and viewing of users and their public recipes."
+				project_image="KitchenApp.mp4"
 			/>
-			<ProjectCard 
+			<ProjectCard
+				project_title="Kitchen API (Backend)"
+				project_duration={3}
+				project_tools="TypeScript, ExpressJS, MySQL, JWT, Nodemailer, Cloudinary"
+				project_description="Backend designed for the Task Manager APP"
+				project_image="KitchenBackend.png"
+			/>
+			<ProjectCard
 				project_title="Sherlock Solitaire"
 				project_duration={4}
 				project_tools={"Java, POO"}
 				project_description="Game created in Java based on the game Sherlock Solitaire"
-			/>
-			<ProjectCard
-				project_title="Task Manager (Backend)"
-				project_duration={3}
-				project_tools="JavaScript, ExpressJS, MySQL, JWT"
-				project_description="Backend designed for the Task Manager APP"
+				project_image="SherlockSolitaire.jpg"
 			/>
 		</div>
 	)
