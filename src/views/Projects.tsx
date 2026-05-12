@@ -47,6 +47,13 @@ export default function Projects() {
 				project_description="Proyecto escolar creado en base al juego de mesa del mismo nombre, haciendo uso de la Programación Orientada a Objetos y lógica de programación."
 				project_image="SherlockSolitaire.jpg"
 			/>
+			<ProjectCard
+				project_title="MichiCan"
+				project_duration={5}
+				project_tools={"Java, JSP, SQLite"}
+				project_description="Proyecto escolar pensado para la administración de una veterinaria, equipada con herramientas de seguimiento así como de creación e citas por parte del cliente y descarga de historial médico completo."
+				project_image="MichiCan.png"
+			/>
 		</div>
 	)
 }
