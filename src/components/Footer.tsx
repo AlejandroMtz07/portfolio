@@ -19,7 +19,12 @@ export default function Footer() {
                     <a href="https://github.com/AlejandroMtz07"
                         rel="noopener noreferrer" target="_blank"
                     >
-                        <img src="../assets/icons/github_icon.png" alt="Instagram icon" className="h-10" />
+                        <img src="../assets/icons/github_icon.png" alt="Github icon" className="h-10" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/juan-alejandro-santos-martínez-7278143a2"
+                        rel="noopener noreferrer" target="_blank"
+                    >
+                        <img src="../assets/icons/linkedin_icon.png" alt="Linkedin icon" className="h-10" />
                     </a>
                 </div>
                 <div className="border-l-black border-l-2 flex items-center 
