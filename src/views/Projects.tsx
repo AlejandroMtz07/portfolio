@@ -9,7 +9,7 @@ export default function Projects() {
 					Projectos
 				</h2>
 				<h4>
-					Projectos que he creado.
+					Proyectos que he creado.
 				</h4>
 			</div>
 			<ProjectCard

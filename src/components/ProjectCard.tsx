@@ -13,7 +13,7 @@ export default function ProjectCard({project_title,project_description,project_d
     return (
         <div className="bg-[url('../assets/button_bg_image.png')] 
           border-t-[#AAA] border-l-[#AAA] border-b-[#565656] border-r-[#565656] border-4
-          w-10/12 mb-2 text-white lg:p-3 lg:grid grid-cols-2 pixel-corners pixel_corners p-4"
+          w-10/12 mb-2 text-white lg:p-3 lg:grid grid-cols-2 pixel_corners p-4"
         >
             <div className='flex flex-col items-center justify-center'>
                 <h3 className="text-3xl mb-7 flex flex-row align-middle items-center gap-4">
