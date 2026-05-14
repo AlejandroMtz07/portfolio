@@ -1,3 +1,4 @@
+import PLanguageCard from '../components/PLanguageCard'
 import '../index.css'
 
 export default function Skills() {
@@ -7,18 +8,28 @@ export default function Skills() {
 			<h2 className="font-mc lg:text-5xl text-3xl">
 				Mis habilidades y certificaciones.
 			</h2>
-			<div className="lg:grid flex flex-col grid-cols-2 grid-rows-3 w-3/4 h-96 lg:mt-20 mt-10 gap-10 font-mc text-2xl">
-				<div className={`col-span-1 row-span-3 ${borderStyles}`}
-				>
-					Lenguajes de programación.
+			<p className='font-mc text-2xl'>Habilidades que he adquirido.</p>
+			<div className="lg:grid flex flex-col grid-cols-2 grid-rows-3 w-3/4 h-full lg:mt-20 mt-10 gap-10 font-mc">
+				<div className={`col-span-1 row-span-3 ${borderStyles}`}>
+					<h3 className='text-2xl'>
+						Lenguajes de programación.
+					</h3>
+					<PLanguageCard programming_language='HTML' level={9} master='Avanzado'/>
+					<PLanguageCard programming_language='Java' level={8} master='Medio-Avanzado'/>
+					<PLanguageCard programming_language='JavaScript' level={8} master='Medio-Avanzado'/>
+					<PLanguageCard programming_language='TypeScript' level={7} master='Medio-Avanzado'/>
+					<PLanguageCard programming_language='Python' level={4} master='Inicial-Intermedio'/>
+					<PLanguageCard programming_language='Dart' level={5} master='Inicial-Intermedio'/>
+					<PLanguageCard programming_language='CSharp' level={3} master='Inicial'/>
 				</div>
 				<div className={`row-span-2 ${borderStyles}`}>
-					Herramientas.
+					<h2 className='text-2xl'>Herramientas.</h2>
 				</div>
 				<div className={`${borderStyles}`}>
-					Certificaciones
+					<h2 className='text-2'>Certificaciones</h2>
 				</div>
 			</div>
 		</div>
 	)
 }
+

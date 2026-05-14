@@ -6,7 +6,6 @@ type ButtonProps = {
     path: string
 }
 
-//TODO Use the path prop to redirect to another page using React Router DOM
 export default function Button({ text, path, type }: ButtonProps) {
 
     const navigate = useNavigate();
