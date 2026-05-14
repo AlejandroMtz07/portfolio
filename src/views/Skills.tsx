@@ -1,4 +1,5 @@
 import PLanguageCard from '../components/PLanguageCard'
+import ToolsCard from '../components/ToolsCard'
 import '../index.css'
 
 export default function Skills() {
@@ -17,13 +18,15 @@ export default function Skills() {
 					<PLanguageCard programming_language='HTML' level={9} master='Avanzado'/>
 					<PLanguageCard programming_language='Java' level={8} master='Medio-Avanzado'/>
 					<PLanguageCard programming_language='JavaScript' level={8} master='Medio-Avanzado'/>
+					<PLanguageCard programming_language='SQL' level={8} master='Medio-Avanzado'/>
 					<PLanguageCard programming_language='TypeScript' level={7} master='Medio-Avanzado'/>
 					<PLanguageCard programming_language='Python' level={4} master='Inicial-Intermedio'/>
 					<PLanguageCard programming_language='Dart' level={5} master='Inicial-Intermedio'/>
 					<PLanguageCard programming_language='CSharp' level={3} master='Inicial'/>
 				</div>
 				<div className={`row-span-2 ${borderStyles}`}>
-					<h2 className='text-2xl'>Herramientas.</h2>
+					<h2 className='text-2xl mt-10'>Herramientas y Frameworks.</h2>
+					<ToolsCard tools={['Git','Github','ExpressJS','SpringBoot','Flask','MySQL','SQLite','PostgreSQL','Arduino','Tailwind']}/>
 				</div>
 				<div className={`${borderStyles}`}>
 					<h2 className='text-2'>Certificaciones</h2>
