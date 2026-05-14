@@ -19,7 +19,7 @@ export default function PLanguageCard({ programming_language, level, master }: P
 		10: "col-span-10 bg-green-500",
 	}
 	return (
-		<div className="bg-gray-600 m-4 p-3 rounded flex lg:flex-row flex-col justify-evenly items-center">
+		<div className="bg-gray-700 m-4 p-3 rounded flex lg:flex-row flex-col justify-evenly items-center pixel_corners">
 			<div>	
 				<img src={`../assets/programming_icons/${programming_language.toLowerCase()}_icon.png`} alt="" /><p>{programming_language}</p>
 			</div>
