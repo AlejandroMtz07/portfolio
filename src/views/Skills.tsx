@@ -33,7 +33,7 @@ export default function Skills() {
 					<h2 className='text-2xl lg:mt-10'>Certificaciones (Click para descargar)</h2>
 					<div className='flex flex-row align-middle justify-center'>
 						<CertificationCard certification_name='Network Defense' badge_name='NetworkDefenseBadge' file_name='NetworkDefense'/>
-						<CertificationCard certification_name='CiberSecurity' badge_name='CiberSecurityBadge' file_name='CiberSecurity'/>
+						<CertificationCard certification_name='CyberSecurity' badge_name='CiberSecurityBadge' file_name='CyberSecurity'/>
 						<CertificationCard certification_name='SpringBoot' badge_name='UdemyBadge' file_name='Spring Boot'/>
 					</div>
 				</div>

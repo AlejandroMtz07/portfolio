@@ -7,7 +7,10 @@ type CertificationCardProps = {
 export default function CertificationCard({file_name,badge_name,certification_name}:CertificationCardProps) {
 	return (
 		<div className="flex align-middle items-center m-4 mt-4">
-			<a href={`../files/${file_name}.pdf`} download={`${file_name}.pdf`} className="flex flex-col items-center">
+			<a 
+				href={`../files/${file_name}.pdf`} 
+				download={`${file_name}.pdf`} 
+				className="flex flex-col items-center">
 				<img 
 					src={`../files/${badge_name}.png`} 
 					alt="Cisco badge" 
