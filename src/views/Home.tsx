@@ -12,7 +12,7 @@ function Home() {
                 >
                     Juan Alejandro Santos Martínez
                 </div>
-                <div className="row-span-2 flex flex-col justify-center items-center gap-5">
+                <div className="row-span-2 flex flex-col justify-center items-center gap-5 text-center">
                     <div>
                         <h3 className="font-mc text-lg">Conoce mis proyectos:</h3>
                         <Button text="Proyectos" path="/projects" type="button"/>

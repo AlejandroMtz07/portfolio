@@ -6,7 +6,7 @@ export default function Projects() {
 		font-mc text-2xl justify-items-center">
 			<div className="col-span-2 mb-10">
 				<h2 className="text-6xl font-bold">
-					Projectos
+					Proyectos
 				</h2>
 				<h4>
 					Proyectos que he creado.
