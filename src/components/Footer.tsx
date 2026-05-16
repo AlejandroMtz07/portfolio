@@ -1,11 +1,11 @@
 
 export default function Footer() {
     return (
-        <footer className="w-full h-32 text-center mt-40 p-10 font-mc 
+        <footer className="w-full h-32 text-center mt-40 p-4 font-mc 
                 text-lg bg-[url('../assets/grass-border.jpg')] text-white flex items-center justify-center"
         >
-            <div className="flex flex-row lg:gap-10 gap-3">
-                <div className="flex h-10">
+            <div className="flex flex-row lg:gap-10 gap-2">
+                <div className="flex items-center">
                     <a href="https://www.facebook.com/alejandro.martinez.693463"
                         rel="noopener noreferrer" target="_blank" className="h-10"
                     >
@@ -28,7 +28,7 @@ export default function Footer() {
                     </a>
                 </div>
                 <div className="border-l-black border-l-2 flex items-center 
-                    align-middle text-black text-2xl"
+                    align-middle text-black lg:text-2xl text-lg"
                 >
                     <p className="lg:ml-10 ml-2">Juan Alejandro Santos Martinez</p>
                 </div>
