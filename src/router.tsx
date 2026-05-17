@@ -3,6 +3,7 @@ import Home from './views/Home';
 import Projects from './views/Projects';
 import Skills from './views/Skills';
 import AppLayout from './layouts/AppLayout';
+import NotFound from './views/NotFound';
 
 export default function Router() {
     return (
@@ -12,6 +13,7 @@ export default function Router() {
                     <Route path='' element={<Home/>}/>
                     <Route path='projects' element={<Projects/>}/>
                     <Route path='skills' element={<Skills/>}/>
+                    <Route path='*' element={<NotFound/>}/>
                 </Route>
             </Routes>
         </BrowserRouter>
