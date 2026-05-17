@@ -13,8 +13,8 @@ export default function Router() {
                     <Route path='' element={<Home/>}/>
                     <Route path='projects' element={<Projects/>}/>
                     <Route path='skills' element={<Skills/>}/>
-                    <Route path='*' element={<NotFound/>}/>
                 </Route>
+                <Route path='*' element={<NotFound/>}/>
             </Routes>
         </BrowserRouter>
     )
