@@ -27,7 +27,7 @@ export default function Skills() {
 				</div>
 				<div className={`row-span-2 ${borderStyles}`}>
 					<h2 className='text-2xl mt-10'>Herramientas y Frameworks.</h2>
-					<ToolsCard tools={['Git','Github','ExpressJS','SpringBoot','Flask','MySQL','SQLite','PostgreSQL','Arduino','Tailwind']}/>
+					<ToolsCard tools={['Git','Github','ExpressJS','SpringBoot','Flask','MySQL','SQLite','PostgreSQL','Arduino','Tailwind','React','Lombok']}/>
 				</div>
 				<div className={`${borderStyles}`}>
 					<h2 className='text-2xl lg:mt-10'>Certificaciones (Click para descargar)</h2>
