@@ -23,6 +23,7 @@ export default function Skills() {
 					<PLanguageCard programming_language='TypeScript' level={7} master='Medio-Avanzado'/>
 					<PLanguageCard programming_language='Python' level={4} master='Inicial-Intermedio'/>
 					<PLanguageCard programming_language='Dart' level={5} master='Inicial-Intermedio'/>
+					<PLanguageCard programming_language='PHP' level={5} master='Inicial-Intermedio'/>
 					<PLanguageCard programming_language='CSharp' level={3} master='Inicial'/>
 				</div>
 				<div className={`row-span-2 ${borderStyles}`}>
